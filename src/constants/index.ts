@@ -12,17 +12,17 @@ import {
   backend,
   web,
   javascript,
-  typescript,
+  flutter,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  vue3,
+  firebase,
+  aws,
   git,
   figma,
-  docker,
+  python,
   sataware,
   deliveryapp,
   sutherland,
@@ -81,8 +81,8 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Flutter",
+    icon: flutter,
   },
   {
     name: "React JS",
@@ -93,16 +93,16 @@ const technologies: TTechnology[] = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Firebase",
+    icon: firebase,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Three JS",
@@ -117,8 +117,8 @@ const technologies: TTechnology[] = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "vue3",
+    icon: vue3,
   },
 ];
 
