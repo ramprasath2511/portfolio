@@ -26,7 +26,6 @@ import {
   sataware,
   deliveryapp,
   sutherland,
-  zippd,
   carrent,
   jobit,
   tripguide,
@@ -127,7 +126,7 @@ const experiences: TExperience[] = [
     {
     title: "Software Engineer",
     companyName: "Zippd",
-    icon: zippd,
+    icon: deliveryapp,
     iconBg: "#1837b2ff",
     date: "Mar 2026 - Present",
    points: [
