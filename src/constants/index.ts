@@ -26,6 +26,7 @@ import {
   sataware,
   deliveryapp,
   sutherland,
+  zippd,
   carrent,
   jobit,
   tripguide,
@@ -123,12 +124,32 @@ const technologies: TTechnology[] = [
 ];
 
 const experiences: TExperience[] = [
+    {
+    title: "Software Engineer",
+    companyName: "Zippd",
+    icon: zippd,
+    iconBg: "#1837b2ff",
+    date: "Mar 2026 - Present",
+   points: [
+  "Led the front‑end team using Agile/Kanban, collaborating with backend, UX, and stakeholders to deliver high‑quality applications.",
+  "Built responsive, cross‑platform Flutter apps for web, Android, and iOS from a single codebase.",
+  "Implemented scalable state management using Provider and Bloc.",
+  "Integrated REST APIs, WebSockets, and third‑party services with secure token‑based authentication.",
+  "Developed Python‑based route optimization and integrated it with core APIs for efficient operations.",
+  "Implemented image text‑extraction and ML‑powered video analysis to enhance app intelligence.",
+  "Managed datasets in Google Cloud Storage and connected them to analytics workflows.",
+  "Integrated push notifications, deep linking, in‑app purchases, and background services using Firebase.",
+  "Built CI/CD pipelines with automated testing and Git‑based version control.",
+  "Deployed applications to Google Play, Apple App Store, and Firebase Hosting.",
+  "Managed AWS services including EC2, S3, RDS, Security Groups, and CloudWatch alerts."
+],
+  },
   {
     title: "Senior Flutter Developer",
     companyName: "Deliver E Hub Ltd",
     icon: deliveryapp,
     iconBg: "#383E56",
-    date: "July 2022 - Present",
+    date: "July 2022 - Mar 2026",
     points: [
      "Led the front-end team using Agile and Kanban methodologies, collaborating closely with backend developers, UX designers, and stakeholders to deliver high-quality applications.",
       "Designed and developed robust, consumer-focused web applications using Flutter in collaboration with HTML, CSS, and Dart, ensuring seamless performance and cross-platform functionality. Additionally, built and deployed high-quality mobile applications for Android and iOS platforms from the same codebase",
@@ -136,12 +157,7 @@ const experiences: TExperience[] = [
       "Integrated REST APIs, WebSockets, and third-party services to enhance app performance and real-time communication. Familiar with token-based authentication and Magento’s V1 API structure",
       "Implemented advanced route optimization techniques using Python to enhance efficiency and minimize operational costs. Effectively integrated and communicated these optimizations with the core API, ensuring seamless data exchange and robust functionality across systems",
       "Utilized image capturing technology to automate key functionalities and extract text from images, streamlining processes and enhancing user experience. Additionally, integrated a video analysis feature powered by machine learning plugins within applications, enabling intelligent content analysis and advanced functionality",
-      "Managed datasets in Google Cloud Storage and connected them to analytics tools",
-      "Implemented push notifications, deep linking for native-like user experience using firebase. In addition to that Integrated in-app purchases and background services for the application",
-      "Built and maintained CI/CD pipelines for seamless deployment, automated testing (unit, widget, integration testing), and version control using Git",
-      "Deployed applications to the Google Play Store, Apple App Store, and Firebase Hosting, ensuring efficient release management",
-      "Managing AWS services like  EC2 instances, configuring Security Groups, handling S3 storage, administering RDS databases, and setting up CloudWatch alerts with SNS notifications.",
-     ],
+    ],
   },
   {
     title: "Web and Flutter Developer",
