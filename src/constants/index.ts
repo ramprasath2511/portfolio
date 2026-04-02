@@ -25,12 +25,15 @@ import {
   python,
   sataware,
   deliveryapp,
+  zippd,
   sutherland,
   carrent,
   jobit,
   tripguide,
   threejs,
   pixalive,
+  admin,
+  chat,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -126,23 +129,23 @@ const experiences: TExperience[] = [
     {
     title: "Software Engineer",
     companyName: "Zippd",
-    icon: deliveryapp,
-    iconBg: "#1837b2ff",
+    icon: zippd,
+    iconBg: "#0b0b0bff",
     date: "Mar 2026 - Present",
-   points: [
-  "Led the front‑end team using Agile/Kanban, collaborating with backend, UX, and stakeholders to deliver high‑quality applications.",
-  "Built responsive, cross‑platform Flutter apps for web, Android, and iOS from a single codebase.",
-  "Implemented scalable state management using Provider and Bloc.",
-  "Integrated REST APIs, WebSockets, and third‑party services with secure token‑based authentication.",
-  "Developed Python‑based route optimization and integrated it with core APIs for efficient operations.",
-  "Implemented image text‑extraction and ML‑powered video analysis to enhance app intelligence.",
-  "Managed datasets in Google Cloud Storage and connected them to analytics workflows.",
-  "Integrated push notifications, deep linking, in‑app purchases, and background services using Firebase.",
-  "Built CI/CD pipelines with automated testing and Git‑based version control.",
-  "Deployed applications to Google Play, Apple App Store, and Firebase Hosting.",
-  "Managed AWS services including EC2, S3, RDS, Security Groups, and CloudWatch alerts."
-],
-  },
+    points: [
+     "Led the front‑end team using Agile/Kanban, collaborating with backend, UX, and stakeholders to deliver high‑quality applications.",
+     "Built responsive, cross‑platform Flutter apps for web, Android, and iOS from a single codebase.",
+     "Implemented scalable state management using Provider and Bloc.",
+     "Integrated REST APIs, WebSockets, and third‑party services with secure token‑based authentication.",
+     "Developed Python‑based route optimization and integrated it with core APIs for efficient operations.",
+     "Implemented image text‑extraction and ML‑powered video analysis to enhance app intelligence.",
+     "Managed datasets in Google Cloud Storage and connected them to analytics workflows.",
+     "Integrated push notifications, deep linking, in‑app purchases, and background services using Firebase.",
+     "Built CI/CD pipelines with automated testing and Git‑based version control.",
+     "Deployed applications to Google Play, Apple App Store, and Firebase Hosting.",
+     "Managed AWS services including EC2, S3, RDS, Security Groups, and CloudWatch alerts."
+    ],  
+   },
   {
     title: "Senior Flutter Developer",
     companyName: "Deliver E Hub Ltd",
@@ -150,11 +153,9 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",
     date: "July 2022 - Mar 2026",
     points: [
-     "Led the front-end team using Agile and Kanban methodologies, collaborating closely with backend developers, UX designers, and stakeholders to deliver high-quality applications.",
-      "Designed and developed robust, consumer-focused web applications using Flutter in collaboration with HTML, CSS, and Dart, ensuring seamless performance and cross-platform functionality. Additionally, built and deployed high-quality mobile applications for Android and iOS platforms from the same codebase",
+      "Designed and developed robust, consumer-focused web applications using Flutter in collaboration with HTML, CSS, and Dart, ensuring seamless performance and cross-platform functionality.", 
       "Implemented advanced state management using Provider and Bloc patterns, ensuring scalable and maintainable application architecture",
       "Integrated REST APIs, WebSockets, and third-party services to enhance app performance and real-time communication. Familiar with token-based authentication and Magento’s V1 API structure",
-      "Implemented advanced route optimization techniques using Python to enhance efficiency and minimize operational costs. Effectively integrated and communicated these optimizations with the core API, ensuring seamless data exchange and robust functionality across systems",
       "Utilized image capturing technology to automate key functionalities and extract text from images, streamlining processes and enhancing user experience. Additionally, integrated a video analysis feature powered by machine learning plugins within applications, enabling intelligent content analysis and advanced functionality",
     ],
   },
@@ -222,34 +223,42 @@ const testimonials: TTestimonial[] = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
+  {
+    testimonial:
+      "I had the pleasure of working with Ramprasath as a Flutter developer, and he consistently delivered high-quality work. His ability to understand requirements quickly and manage time effectively made every project smoother. A reliable and dedicated team player—I highly recommend him.",
+    name: "Mohammed Akeel",
+    designation: "Senior developer",
+    company: "Zippd",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Social Media app",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A mobile, enterprise‑level social media application that allows users to view a personalised feed, post content, like, and comment. It uses an Instagram‑style recommendation engine to efficiently suggest interests and categories.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Dart",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Swift/Kotlin",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/ramprasath2511/socialmedia-app-",
   },
   {
-    name: "Job IT",
+    name: "Web Streaming",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web application that allows users to stream movies, browse trending and recommended titles, explore genres, and discover films based on their viewing preferences.",
     tags: [
       {
         name: "react",
@@ -264,29 +273,71 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: tripguide,
+    sourceCodeLink: "https://github.com/ramprasath2511/reactjs_moviedux",
   },
   {
-    name: "Trip Guide",
+    name: "vehicle book",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive travel booking platform that allows users to book vehicle, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Vue3",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "HTML",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: jobit,
+    sourceCodeLink: "https://github.com/ramprasath2511/BookingForm_Vue3",
+  },
+   {
+    name: "RO Admin Panel",
+    description:
+      "The Centralized Admin Panel provides a real‑time, centralised view of all operations. It is designed to help administrators monitor, track performance, and ensure that every process follows the most efficient route.",
+    tags: [
+      {
+        name: "Vue3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: admin,
+    sourceCodeLink: "https://github.com/ramprasath2511/react_timer",
+  },
+   {
+    name: "Switch app",
+    description:
+      "A mobile messaging application that lets users chat instantly, share media, create group conversations, and stay connected through fast, secure communication.",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dart",
+        color: "green-text-gradient",
+      },
+      {
+        name: "IOS/Android",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chat,
+    sourceCodeLink: "https://github.com/ramprasath2511/switch-app",
   },
 ];
 

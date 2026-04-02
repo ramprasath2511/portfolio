@@ -21,14 +21,18 @@ import python from "./tech/python.png";
 import firebase from "./tech/firebase.png";
 import threejs from "./tech/threejs.svg";
 
+import zippd from "./company/zippd.png"
 import pixalive from "./company/pixalive.png";
 import sataware from "./company/sataware.png";
 import deliveryapp from "./company/deliveryapp.png";
 import sutherland from "./company/sutherland.png";
 
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import admin from "./admin.png";
+import chat from "./chat.png";
 
 export {
   logo,
@@ -54,9 +58,12 @@ export {
   threejs,
   pixalive,
   sutherland,
+  zippd,
   deliveryapp,
   sataware,
   carrent,
   jobit,
   tripguide,
+  admin,
+  chat
 };
